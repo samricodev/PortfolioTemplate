@@ -11,7 +11,7 @@ function PostCard({ post }) {
         <div className="card-body">
           <h1>{post.title}</h1>
           <p>{post.content}</p>
-          <Link href={`/post?title=${post.title}`} as={`/post/${post.title}`} className='btn btn-primary rounded'>Read</Link>
+          <Link href={`/post?title=${post.title}`} className='btn btn-primary rounded'>Read</Link>
         </div>
       </div>
     </div>
